@@ -13,12 +13,12 @@ table{
     margin-left: 10%;
     margin-right: 10%;
     border-collapse: collapse;
-    border: 1px solid white;
+    border: 1px solid blue;
     width: 70%; 
     background-color: white;
 }
 table, td{
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid bluema;
     padding: 10px;
 }
 table tr:nth-child(even){
@@ -42,9 +42,23 @@ table tr:hover{
     height: 25px;
     border: 1px solid blue;
 }
-table td button{
+#edit{
     width: 80px;
     height: 25px;
     background-color: blue;
+    color: white;
+}
+#delete{
+    width: 80px;
+    height: 25px;
+    background-color: maroon;
+    color: white;
+}
+#add{
+    background-color: blue;
+    color: white;
+}
+#update{
+    background-color: maroon;
     color: white;
 }

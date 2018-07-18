@@ -53,8 +53,8 @@ function viewdata() {
             data += "<td>" + contacts[i].name + "</td>";
             data += "<td>" + contacts[i].email + "</td>";
             data += "<td>" + contacts[i].mobile + "</td>";
-            data += "<td><button onclick=editcontact(" + i + ")>Edit</button>";
-            data += "<td><button onclick=deletecontact(" + i + ")>Delete</button>";
+            data += "<td><button id='edit' onclick=editcontact(" + i + ")>Edit</button>";
+            data += "<td><button id='delete' onclick=deletecontact(" + i + ")>Delete</button>";
             data += "</tr>";
         }
         data += "</table>";
