@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact book</title>
+    <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <h3>My Contacts</h3>
+        <hr>
+        <p> 
+        <input type="text" name="cname" id="cname" class="cname" placeholder="Enter Name">
+        </p>
+        <p>
+            <input type="text" name="email" id="email" class="email" placeholder="Enter email">
+        </p>
+        <p>
+            <input type="text" name="mobile" id="mobile" class="mobile" placeholder="Enter Mobile Number">
+        </p>
+        <p>
+        <button onclick="addcontact()" id="add">Add Contact</button>
+         <button onclick="updatecontact()" id="update">Update Contact</button>
+        </p>
+        
+        <div id="content"></div>
+        
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
